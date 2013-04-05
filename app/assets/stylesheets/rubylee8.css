@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	height: 1800px;
+	min-height: 1800px;
+	padding: 0;
+}
+
+section{
+	position: fixed;
+	overflow: hidden;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+section.fixed{
+	position: fixed;
+	top: 0px;
+}
+
+.one{
+	position: absolute;
+	z-index: 1;
+}
+
+.two{
+	position: absolute;
+	display: none;
+	z-index: 2;
+}
+
+.content{
+	background-color: rgba(125,0,0,0.6);
+	padding: 10px;
+	height: 850px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	z-index: 100;
+}
+
+#first{
+	top: 50px;
+}
+
+#second{
+	top: 350px;
+}

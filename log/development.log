@@ -233,3 +233,305 @@ Served asset /application.css - 304 Not Modified (0ms)
 
 Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-04-05 16:39:55 -0400
 Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-05 17:00:46 -0400
+Processing by ApplicationController#home as HTML
+  Rendered application/home.html.erb within layouts/application (0.0ms)
+Compiled main.css  (0ms)  (pid 14220)
+Compiled normalize.css  (0ms)  (pid 14220)
+Completed 200 OK in 43ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-04-05 17:00:46 -0400
+Served asset /application.css - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/application.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.3) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.3) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-04-05 17:00:46 -0400
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2013-04-05 17:00:46 -0400
+Served asset /normalize.css - 200 OK (2ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-04-05 17:00:46 -0400
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-05 17:00:49 -0400
+Processing by ApplicationController#home as HTML
+  Rendered application/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-04-05 17:00:49 -0400
+Served asset /application.css - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/application.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.3) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.3) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.3) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.3) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine-1.0.0-x86 (mingw32) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.3) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.3) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered c:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-04-05 17:00:49 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2013-04-05 17:00:49 -0400
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-04-05 17:00:49 -0400
+Served asset /modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-05 17:01:16 -0400
+Processing by ApplicationController#home as HTML
+  Rendered application/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-04-05 17:01:16 -0400
+Served asset /main.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2013-04-05 17:01:16 -0400
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-04-05 17:01:16 -0400
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-05 17:15:13 -0400
+Processing by ApplicationController#home as HTML
+  Rendered application/home.html.erb within layouts/application (0.0ms)
+Compiled rubylee8.css  (0ms)  (pid 14220)
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rubylee8.css?body=1" for 127.0.0.1 at 2013-04-05 17:15:13 -0400
+Served asset /rubylee8.css - 200 OK (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-04-05 17:15:13 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2013-04-05 17:15:13 -0400
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/jquery-1.9.1.js" for 127.0.0.1 at 2013-04-05 17:15:13 -0400
+Compiled lib/jquery-1.9.1.js  (2ms)  (pid 14220)
+Served asset /lib/jquery-1.9.1.js - 200 OK (47ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-04-05 17:15:13 -0400
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-05 17:20:16 -0400
+Processing by ApplicationController#home as HTML
+  Rendered application/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rubylee8.css?body=1" for 127.0.0.1 at 2013-04-05 17:20:16 -0400
+Served asset /rubylee8.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-04-05 17:20:16 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2013-04-05 17:20:16 -0400
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-04-05 17:20:16 -0400
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/jquery-1.9.1.js" for 127.0.0.1 at 2013-04-05 17:20:16 -0400
+Served asset /lib/jquery-1.9.1.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-05 17:20:19 -0400
+Processing by ApplicationController#home as HTML
+  Rendered application/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rubylee8.css?body=1" for 127.0.0.1 at 2013-04-05 17:20:19 -0400
+Served asset /rubylee8.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-04-05 17:20:19 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2013-04-05 17:20:19 -0400
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/modernizr.js?body=1" for 127.0.0.1 at 2013-04-05 17:20:19 -0400
+Served asset /modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/jquery-1.9.1.js" for 127.0.0.1 at 2013-04-05 17:20:19 -0400
+Served asset /lib/jquery-1.9.1.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-05 17:36:40 -0400
+Processing by ApplicationController#home as HTML
+  Rendered application/home.html.erb within layouts/application (0.0ms)
+Compiled rubylee8.css  (0ms)  (pid 14220)
+Completed 200 OK in 33ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rubylee8.css?body=1" for 127.0.0.1 at 2013-04-05 17:36:40 -0400
+Served asset /rubylee8.css - 200 OK (3ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-04-05 17:36:40 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2013-04-05 17:36:40 -0400
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/modernizr.js" for 127.0.0.1 at 2013-04-05 17:36:40 -0400
+Compiled lib/modernizr.js  (0ms)  (pid 14220)
+Served asset /lib/modernizr.js - 200 OK (53ms)
+
+
+Started GET "/assets/lib/jquery-1.9.1.js" for 127.0.0.1 at 2013-04-05 17:36:40 -0400
+Served asset /lib/jquery-1.9.1.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-05 17:39:23 -0400
+Processing by ApplicationController#home as HTML
+  Rendered application/home.html.erb within layouts/application (0.0ms)
+Compiled rubylee8.css  (0ms)  (pid 14220)
+Completed 200 OK in 31ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rubylee8.css?body=1" for 127.0.0.1 at 2013-04-05 17:39:23 -0400
+Served asset /rubylee8.css - 200 OK (2ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-04-05 17:39:23 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2013-04-05 17:39:23 -0400
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/jquery-1.9.1.js" for 127.0.0.1 at 2013-04-05 17:39:23 -0400
+Served asset /lib/jquery-1.9.1.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/modernizr.js" for 127.0.0.1 at 2013-04-05 17:39:23 -0400
+Served asset /lib/modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-05 17:42:55 -0400
+Processing by ApplicationController#home as HTML
+  Rendered application/home.html.erb within layouts/application (0.0ms)
+Compiled rubylee8.css  (0ms)  (pid 14220)
+Completed 200 OK in 31ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rubylee8.css?body=1" for 127.0.0.1 at 2013-04-05 17:42:55 -0400
+Served asset /rubylee8.css - 200 OK (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-04-05 17:42:55 -0400
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2013-04-05 17:42:55 -0400
+Served asset /normalize.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/jquery-1.9.1.js" for 127.0.0.1 at 2013-04-05 17:42:55 -0400
+Served asset /lib/jquery-1.9.1.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/lib/modernizr.js" for 127.0.0.1 at 2013-04-05 17:42:55 -0400
+Served asset /lib/modernizr.js - 304 Not Modified (0ms)
