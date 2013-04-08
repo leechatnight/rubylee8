@@ -1,29 +1,28 @@
-<div id="section">
-	<img src="image01.jpg"/>
-	<img scr="image02.jpg"/>
+<div id="background"></div>
+
+<div id="nav"></div>
+
+<div id="content">
+	<div class="section first">
+		<h1>
+		<span>Year</span>
+		<span class="year">2012</span>
+		</h1>
+		<p>
+			Donec viverra justo sed orci. Mauris mattis tristique arcu. Nullam pretium ligula ac felis. Duis placerat metus a sapien. Nullam dolor mi, gravida vel, dignissim non, aliquam et, lorem. Etiam placerat gravida ligula. Fusce sit amet diam a pede elementum sagittis. Aliquam adipiscing suscipit ante. Aliquam ornare tortor in ligula. Donec dapibus nisl a quam. Aenean nec sem. Nullam sit amet pede. Integer sed ligula quis neque bibendum placerat. Fusce lobortis odio a erat tincidunt pulvinar. 
+		</p>
+	</div>
+	<div class="section second">
+		<h1>
+		<span>Year</span>
+		<span class="year">2013</span>
+		</h1>
+		<p>
+			Donec viverra justo sed orci. Mauris mattis tristique arcu. Nullam pretium ligula ac felis. Duis placerat metus a sapien. Nullam dolor mi, gravida vel, dignissim non, aliquam et, lorem. Etiam placerat gravida ligula. Fusce sit amet diam a pede elementum sagittis. Aliquam adipiscing suscipit ante. Aliquam ornare tortor in ligula. Donec dapibus nisl a quam. Aenean nec sem. Nullam sit amet pede. Integer sed ligula quis neque bibendum placerat. Fusce lobortis odio a erat tincidunt pulvinar. 
+		</p>
+	</div>
 </div>
 
-<div id="first" class="content">Content 1</div>
-
-<div id="second" class="content">Content 2</div>
-
-<script language="javascript" type="text/javascript">
-
-	var thisPos=1;
-	var lastPos=1;
-
-	$(document).ready(function() {
-		$('#section').addClass('fixed');
-		$(window).scroll(function() {
-			var yPos=$(window).scrollTop();
-			if (yPos > 900) {
-				thisPos=2;
-				if(thisPos !=lastPos) {
-					$('.one').fadeOut(500);
-					$('.two').fadeIn(500);
-				}
-			}
-		});
-	});
-
-</script>
+<div id="background-image">
+	<img src="assets/image01.jpg" />
+</div>
