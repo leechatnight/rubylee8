@@ -13,25 +13,24 @@ body {
 }
 
 #background-image {
-	left: 0px;
-	top: 0px;
+	left: -50%;
+	top: -50%;
 	position: fixed;
 	overflow: hidden;
 	z-index: -999999;
-	margin: 0px;
-	padding: 0px;
-	height: 931px;
-	width: 1440px;
+	width: 200%;
+	height: 200%;
 }
 
 #background-image img {
 	position: absolute;
-	margin: 0px;
-	padding: 0px;
+	margin: auto;
 	border: none;
 	z-index: -999999;
-	width: 1440px;
-	height: 931px;
-	left: 0px
+	min-width: 50%;
+	min-height: 50%;
+	left: 0px;
 	top: 0px;
+	bottom: 0px;
+	right: 0px;
 }
