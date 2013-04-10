@@ -57,4 +57,6 @@ Myapp::Application.routes.draw do
   # match ':controller(/:action(/:id))(.:format)'
 
   root :to => 'application#home'
+
+  match '/test1', :to => redirect('/test1.html')
 end
